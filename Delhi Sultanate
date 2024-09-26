@@ -1,0 +1,39 @@
+graph TD
+    A[Delhi Sultanate (1206-1526)] --> B[Mamluk Dynasty (1206-1290)]
+    A --> C[Khalji Dynasty (1290-1320)]
+    A --> D[Tughlaq Dynasty (1320-1414)]
+    A --> E[Sayyid Dynasty (1414-1451)]
+    A --> F[Lodi Dynasty (1451-1526)]
+
+    B --> B1[Qutb al-Din Aibak (1206-1210)]
+    B1 --> |Founder| B2[Iltutmish (1211-1236)]
+    B2 --> |Consolidated power| B3[Razia Sultana (1236-1240)]
+    B3 --> |First female ruler| B4[Ghiyas ud din Balban (1266-1287)]
+    B4 --> |Strengthened administration|
+
+    C --> C1[Jalal ud din Firuz Khalji (1290-1296)]
+    C1 --> |Founder| C2[Alauddin Khalji (1296-1316)]
+    C2 --> |Expanded empire| C3[Qutb ud din Mubarak Shah (1316-1320)]
+    C3 --> |Last ruler|
+
+    D --> D1[Ghiyas ud din Tughlaq (1320-1325)]
+    D1 --> |Founder| D2[Muhammad bin Tughlaq (1325-1351)]
+    D2 --> |Known for ambitious projects| D3[Firuz Shah Tughlaq (1351-1388)]
+    D3 --> |Reforms and public works|
+
+    E --> E1[Khwaja Sirajuddin (1414-1421)]
+    E1 --> |Founder| E2[Muhammad Shah (1434-1445)]
+    E2 --> |Weak ruler| E3[Alam Shah (1445-1451)]
+    E3 --> |Last ruler|
+
+    F --> F1[Bahlul Lodi (1451-1489)]
+    F1 --> |Founder| F2[Sikandar Lodi (1489-1517)]
+    F2 --> |Expanded territory| F3[Ibrahim Lodi (1517-1526)]
+    F3 --> |Defeated by Babur|
+
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style F fill:#bbf,stroke:#333,stroke-width:2px
